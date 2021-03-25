@@ -6,10 +6,10 @@ function input () {
   userinput = document.getElementById('num').value
   day = document.getElementById('day').value
   if (userinput <= 18 && (day !== 'saturday' && day !== 'sunday')) {
-   alert('Have fun at school')
+    alert('Have fun at school')
   } else if (userinput > 18 && (day !== 'saturday' && day !== 'sunday')) {
-    alert('Have fun at work')}
-  else {
+    alert('Have fun at work')
+  } else {
     alert('Its the weekend')
   }
 }
